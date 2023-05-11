@@ -11,7 +11,12 @@ a {
     text-decoration: none;
 }
 
-h1 {
+h1{
     inline-size: 300px;
+    overflow-wrap: break-word;
+}
+
+p {
+    inline-size: 655px;
     overflow-wrap: break-word;
 }
