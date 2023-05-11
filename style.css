@@ -7,11 +7,15 @@
 
 /* Propiedades de los atributos */
 
+body {
+    margin: 1em 2em;
+}
+
 a {
     text-decoration: none;
 }
 
-h1{
+h1 {
     inline-size: 300px;
     overflow-wrap: break-word;
 }
@@ -19,4 +23,48 @@ h1{
 p {
     inline-size: 655px;
     overflow-wrap: break-word;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: -1.5em;
+    gap: 2em;
+}
+
+
+header img {
+    display: flex;
+    position: relative;
+    top: 0.5em;
+}
+
+header .button {
+    display: flex;
+    position: relative;
+    right: -105em;
+    margin-top: -1em;
+    top: -3em;
+    cursor: pointer;
+}
+
+/* Propiedades de las clases */
+
+.casa-hero img {
+    display: flex;
+    position: relative;
+    top: -20em;
+    right: -60.7em;
+    border-radius: 20px;
+    transform: scaleX(-1);
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
 }
