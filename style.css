@@ -5,6 +5,13 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+/* Propiedades de los atributos */
+
 a {
     text-decoration: none;
+}
+
+h1 {
+    inline-size: 300px;
+    overflow-wrap: break-word;
 }
