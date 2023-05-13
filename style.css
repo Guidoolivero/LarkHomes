@@ -16,12 +16,12 @@ a {
 }
 
 h1 {
-    inline-size: 300px;
+    inline-size: 900px;
     overflow-wrap: break-word;
 }
 
 p {
-    inline-size: 655px;
+    inline-size: 850px;
     overflow-wrap: break-word;
 }
 
@@ -49,22 +49,145 @@ header .button {
     cursor: pointer;
 }
 
+
+
+form {
+    display: flex;
+    position: relative;
+    top: 20em;
+}
+
 /* Propiedades de las clases */
 
 .casa-hero img {
     display: flex;
     position: relative;
-    top: -20em;
+    top: -42em;
     right: -60.7em;
     border-radius: 20px;
     transform: scaleX(-1);
+    height: 89vh;
+    width: 565px;
 }
 
 .button {
-    background-color: blue;
+    background-color: rgb(63, 60, 209);
     color: white;
     border-radius: 20px;
     border: none;
     padding: 10px 30px;
     text-align: center;
 }
+
+
+.text-hero h1 {
+    display: flex;
+    position: relative;
+    top: 0.7em;
+    font-size: 5rem;
+}
+
+.text-hero p {
+    display: flex;
+    position: relative;
+    top: 5em;
+    font-size: 1.3rem;
+}
+
+.text {
+    display: flex;
+    position: relative;
+    top: 30em;
+}
+
+.search-bar input {
+    display: flex;
+    position: relative;
+    top: -12em;
+    background-color: rgba(245, 241, 241, 0.315);
+    border: none;
+    border-radius: 30px;
+    width: 810px;
+    padding: 20px 36px;
+}
+
+.search-bar img {
+    display: flex;
+    position: absolute;
+    top: -8.6em;
+    left: 1.9em;
+}
+
+.search-bar button {
+    display: flex;
+    position: absolute;
+    top: -9.8em;
+    left: 42em;
+    background-color: rgb(63, 60, 209);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+
+.search-bar input::placeholder {
+    display: flex;
+    position: relative;
+    left: 2em;
+}
+
+.lupa {
+    width: 20px;
+}
+
+.text-descripcion {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+
+.text1 h2 {
+    display: flex;
+    position: relative;
+    font-size: 3rem;
+    top: 3.5em;
+}
+
+.text1 p {
+    display: flex;
+    position: relative;
+    top: 11em;
+}
+
+
+.text2 h2{
+    display: flex;
+    position: relative;
+    font-size: 3rem;
+    top: 1.6em;
+    margin-left: 250px;
+}
+
+.text2 p{
+    display: flex;
+    position: relative;
+    top: 5.3em;
+    left: 15.7em;
+} 
+
+.text3 h2{
+    display: flex;
+    position: relative;
+    font-size: 3rem;
+    top: -0.3em;
+    margin-left: 470px;
+}
+
+.text3 p{
+    display: flex;
+    position: relative;
+    top: -0.5em;
+    left: 29.5em;
+} 
