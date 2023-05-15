@@ -30,9 +30,8 @@ nav {
     position: relative;
     justify-content: center;
     top: -1.5em;
-    gap: 2em;
+    gap: 2.5em;
 }
-
 
 header img {
     display: flex;
@@ -58,6 +57,23 @@ form {
 }
 
 /* Propiedades de las clases */
+
+.nav-bar a{
+    color: rgb(167, 165, 165);
+}
+
+nav .home {
+    color: black;
+}
+
+nav img {
+    display: flex;
+    position: relative;
+    margin-left: -1.9em;
+    top: 0.1em;
+    width: 20px;
+    
+}
 
 .casa-hero img {
     display: flex;
