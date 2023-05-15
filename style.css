@@ -72,7 +72,6 @@ nav img {
     margin-left: -1.9em;
     top: 0.1em;
     width: 20px;
-    
 }
 
 .casa-hero img {
@@ -82,7 +81,7 @@ nav img {
     right: -60.7em;
     border-radius: 20px;
     transform: scaleX(-1);
-    height: 89vh;
+    height: 92vh;
     width: 565px;
 }
 
@@ -168,13 +167,13 @@ nav img {
     display: flex;
     position: relative;
     font-size: 3rem;
-    top: 3.5em;
+    top: 4.1em;
 }
 
 .text1 p {
     display: flex;
     position: relative;
-    top: 11em;
+    top: 13em;
 }
 
 
@@ -182,14 +181,14 @@ nav img {
     display: flex;
     position: relative;
     font-size: 3rem;
-    top: 1.6em;
+    top: 2.1em;
     margin-left: 250px;
 }
 
 .text2 p{
     display: flex;
     position: relative;
-    top: 5.3em;
+    top: 7.1em;
     left: 15.7em;
 } 
 
@@ -197,13 +196,13 @@ nav img {
     display: flex;
     position: relative;
     font-size: 3rem;
-    top: -0.3em;
+    top: 0.1em;
     margin-left: 470px;
 }
 
 .text3 p{
     display: flex;
     position: relative;
-    top: -0.5em;
+    top: 1.1em;
     left: 29.5em;
 } 
